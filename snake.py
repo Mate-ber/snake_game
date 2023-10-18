@@ -22,7 +22,7 @@ window.onkeypress(snake.change_left, "Left")
 
 
 def start_again():
-    score.reset_score()
+    score.reset_title()
     snake.head.goto(40, 0)
     for i in range(len(snake.segments)):
         snake.segments[i].goto(1000, 1000)
